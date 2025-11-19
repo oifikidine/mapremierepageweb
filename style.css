@@ -1,0 +1,23 @@
+
+/* je selectionne la couleur rouge pour tous mes paragraphes */
+p {
+    color:#ff0000;
+}
+
+
+/* je selectionne la couleur verte pour mes titres de niveaux 1  */
+h1 {
+    color: green;
+}
+
+
+/* je selectionne la couleur bleu pour mes listes ordonnées */
+ol {
+    color: blue;
+}
+
+
+/* je sectionne la couleur gris pour toutes mes listes non ordonnées */
+a {
+    color: grey;
+}
