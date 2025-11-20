@@ -2,14 +2,12 @@
 /* je selectionne la couleur rouge pour tous mes paragraphes */
 p {
     color:#ff0000;
-    text-align: center;
 }
 
 
 /* je selectionne la couleur verte pour mes titres de niveaux 1  */
 h1 {
     color: green;
-    text-align: center;
 }
 
 
@@ -21,5 +19,19 @@ ol {
 
 /* je sectionne la couleur gris pour toutes mes listes non ordonnées */
 a {
-    color: grey;
+    color: grey;   
+}
+
+.rsma{
+    color:blue;
+}
+
+/*je modifie la taille de ma page web */
+p,h1,h2,h3,h4,h5,h6,a,ol{
+font-size: 20px;
+}
+
+/*je modifie la police de ma page web*/
+p,h1,h2,h3,h4,h5,h6,a,ol{
+    font-family: Arial, Helvetica, sans-serif;
 }
