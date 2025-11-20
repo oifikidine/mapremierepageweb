@@ -1,3 +1,9 @@
+/*je modifie la police de ma page web*/
+body{
+    font-family:'Saira',sans-serif ;
+    
+}
+
 
 /* je selectionne la couleur rouge pour tous mes paragraphes */
 p {
@@ -24,14 +30,22 @@ a {
 
 .rsma{
     color:blue;
+    font-family: 'Saira',sans-serif;
 }
 
-/*je modifie la taille de ma page web */
-p,h1,h2,h3,h4,h5,h6,a,ol{
-font-size: 20px;
+/*je modifie la taille de texte de ma classe rsma */
+.rsma{
+font-size: 25px;
 }
 
-/*je modifie la police de ma page web*/
-p,h1,h2,h3,h4,h5,h6,a,ol{
-    font-family: Arial, Helvetica, sans-serif;
+
+
+
+.para1 {
+    font-style: italic;
+    
+}
+
+.para2 {
+font-weight: bold;
 }
