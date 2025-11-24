@@ -1,3 +1,22 @@
 div {
-    color: red;
+    color: black; /* j'ai mis la couleur du texte de la div en rouge*/
+    background-color:whitesmoke; /*j'ai mis l'arrière plan en couleur beige*/
+    border: solid;
+    border-color: red;
+}
+
+#divDouble {
+    border: double;
+    border-color: blue;
+    
+}
+
+#divDotted {
+    border: dotted;
+    border-color: yellow;
+}
+
+#divDashed {
+    border: dashed;
+    border-color: green;
 }
