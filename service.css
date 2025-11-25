@@ -5,6 +5,8 @@ div {
     background-color:whitesmoke;
     border: solid;
     border-color: red;
+    width: 500px;/*width c'est la longueur*/
+    height: 350px ; /*height c'est la largeur*/
 }
 
 
