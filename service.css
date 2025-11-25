@@ -5,8 +5,8 @@ div {
     background-color:whitesmoke;
     border: solid;
     border-color: red;
-    width: 500px;/*width c'est la longueur*/
-    height: 350px ; /*height c'est la largeur*/
+    width: 500px;/*width c'est la largeur*/
+    height: 350px ; /*height c'est la hauteur*/
 }
 
 
@@ -40,5 +40,10 @@ div {
 }
 
 #div2 {
-    border: none;
+    /*La bordure est pointillé, de couleur rouge et 4px d'épaisseur*/
+    border: dotted red 4px;
+    border-radius: 15px;
+    /*Le text est aligné au centre*/
+    text-align: center;
 }
+
