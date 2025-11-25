@@ -1,22 +1,42 @@
+
+/*j'ai créer une bordure solid pour toutes mes div, j'ai mis le texte en couleur noir, l'arrière plan en couleur blanche  */
 div {
-    color: black; /* j'ai mis la couleur du texte de la div en rouge*/
-    background-color:whitesmoke; /*j'ai mis l'arrière plan en couleur beige*/
+    color: black; 
+    background-color:whitesmoke;
     border: solid;
     border-color: red;
 }
 
+
+/* j'ai créer une bordure double pour la div avec l'id divDouble et je l'ai mise en couleur bleu */
 #divDouble {
-    border: double;
+    border: double; 
     border-color: blue;
     
 }
 
+
+/*j'ai créer une border dotted pour la div avec l'id divDotted et je l'ai mise en couleur jaune */
 #divDotted {
-    border: dotted;
+    border: dotted; 
     border-color: yellow;
 }
 
+
+/*j'ai créer une bordure dashed pour la div avec l'id divDashed et je l'ai mise en couleur verte */
 #divDashed {
-    border: dashed;
+    border: dashed; 
     border-color: green;
+}
+
+#div1 {
+  color: cyan;
+  border: solid;
+  border-color: red;
+  background-color: beige;
+  border-radius: 25px 10px 45px 15px
+}
+
+#div2 {
+    border: none;
 }
