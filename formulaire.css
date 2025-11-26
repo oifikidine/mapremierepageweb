@@ -1,10 +1,48 @@
-div{/*ici je met la bordure de ma div en ligne continue et en couleur. je règle aussi sa hauteur et sa largeur*/
-    border: solid red;
-    height: 250px;
-    width: 650px;
+form {/*ici je met la bordure de ma div en ligne continue et en couleur. je règle aussi sa hauteur et sa largeur*/
+    background-color: orange;
+ 
+}
+
+/*ici je met les élément sur la même ligne*/
+#nomPrenom {
+    display: inline;
+    margin-left: 25px; /*je rajoute de la marge à gauche*/
+}
+ 
+/*ici je met les élément sur la même ligne*/
+#dateVillage {
+    display: inline;
+    margin-left: 25px; /*je rajoute de la marge à gauche*/
+}
+
+/*ici je met les élément sur la même ligne*/
+#Discipline{
+    display: inline;
+    margin-left: 25px; /*je rajoute de la marge à gauche*/
+}
+
+/*ici je met le bouton au milieu*/
+#envoyer {/*ici je met mon bouton au centre de ma div*/
+    text-align: center;
+}
+
+#mail{
+    margin-left: 25px; /*je rajoute de la marge à gauche*/
+}
+
+#genre{
+    margin-left: 25px; /*je rajoute de la marge à gauche*/
+}
+
+input[type=text]/*ici nous allons juste modifier les input de types textes*/{
+padding: 7px; /*pading permet de modifier la taille de l'input sa modifie l'espace à l'intérieur*/
+margin:75px; /*marging permet de modifier la taille exterieur autour des input*/
 }
 
 
-#envoyer{/*ici je met mon bouton au centre de ma div*/
-    text-align: center;
+input{
+    padding: 7px;
+    margin: 75px;
+    border-radius: 10px;
+    border-color: black;
 }
