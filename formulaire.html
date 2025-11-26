@@ -7,21 +7,67 @@
     </head>
 
     <body>
+
+        <!--ici je crée un bloc pour insérer mon formulaire-->
         <div>
+
+            <!--ici je crée un formulaire -->
         <form method="get" action="">
-            <p>
+
+            <!--Ici je met une case dans mon formulaire pour indiquer le prénom et la Date de naissance-->
+            <p> 
+                <!--je donne à mon input prenom un label qui s'appelle Prénom-->
                 <label for="prenom">Prénom:</label>
                 <input type="text" name="prenom">
-    
-                <label for="dateDeNaissance">Date de naissance</label>
-                <input type="text" name="dateDeNaissance" id="dateDeNaissance">
+                
+                <!--je donne à mon input dateDeNaissance un label qui s'appelle Date de naissance-->
+                <label for="dateDeNaissance">Date de naissance:</label>
+                <input type="date" name="dateDeNaissance" id="dateDeNaissance">
             </p>
-            <p>
-                <label for="nom">Nom</label>
-                <input type="text" name="nom" id="nom">
 
-                <label for="village">Village</label>
+            <!--Ici je met une case dans mon formulaire pour indiquer le nom et le village-->
+            <p>
+                <!--je donne à mon input nom un label qui s'appelle nom-->
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom">
+                
+                <!--je donne à mon input village un label qui s'appelle Village-->
+                <label for="village">Village:</label>
                 <input type="text" name="village" id="village">
+            </p>
+
+            <!--Ici je met deux bouton radio à cocher pour choisir le sexe-->
+            <p>
+                Sexe:
+                <!--je donne à mon input sexe un label qui s'appelle Masculin-->
+                <label for="sexe"> Masculin</label>
+                <input type="radio" name="sexe" id="sexeMasculin">
+
+                <!--je donne à mon input sexe un label quii s'appelle Féminin-->
+                <label for="sexe">Féminin</label>
+                <input type="radio" name="sexe" id="sexeFéminin">
+            </p>
+
+
+            <!--je met 3 cases à cocher pour selectionner des disciplines -->
+            <p>
+                Discipline:
+                <!--ici je donne à mon input Discipline un label qui s'appelle MATHS-->
+                <label for="Discipline">MATHS</label>
+                <input type="checkbox" name="Discipline" id="maths">
+                <br>
+                <!--ici je donne à mon input Discipline un label qui s'appelle Histoire/Géographie-->
+                <label for="Discipline">Histoire/Géographie</label>
+                <input type="checkbox" name="Discipline" id="histoire">
+                <br>
+                <!--ici je donne à mon input Discipline un label qui s'appelle EPS-->
+                <label for="Discipline">EPS</label>
+                <input type="checkbox" name="Discipline" id="eps">
+            </p>
+
+            <!--ici je rajoute un boutton envoyer dans mon formulaire-->
+            <p id="envoyer">
+                <input type="submit" value="Envoyer">
             </p>
 
         </form>

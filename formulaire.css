@@ -1,5 +1,10 @@
-div{
+div{/*ici je met la bordure de ma div en ligne continue et en couleur. je règle aussi sa hauteur et sa largeur*/
     border: solid red;
-    height: 150px;
+    height: 250px;
     width: 650px;
+}
+
+
+#envoyer{/*ici je met mon bouton au centre de ma div*/
+    text-align: center;
 }
