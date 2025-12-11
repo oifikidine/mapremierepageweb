@@ -1,0 +1,55 @@
+/*je vais appliqué une écriture qui commence par une étoile. il sectionne tous sans distinction*/
+*{
+    box-sizing: border-box;
+}
+
+
+/*Mise en forme pour l'en-tête*/
+header{
+    background-color: #666;/*l'arrière plan est colorié en gris*/
+    padding: 30px;/*l'en-tête est élargie de 30px de hauteur*/
+    text-align: center;/*le texte est aligné au centre*/
+    color: white;/*le texte est de couleur white*/
+    font-size: 35px;/*la taille de la police est de 35px*/
+}
+
+/*Mise en forme de la section.J'utilise la notion de flexbox*/
+section{
+    /*optimise l'affichage sur différentes tailles d'écran*/
+    display: flex;
+}
+
+/*je modifie la barre de recherche de la navigation*/
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+
+/*mise en forme de la liste ul de la balise nav*/
+nav ul {
+        list-style-type: none; /*je retire le puce de la liste*/
+        padding: 0;
+}
+
+
+/*Mise en forme de la vue article <article>*/
+article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color:grey;
+    padding: 10px;
+}
+
+
+/*Mise en forme du footer du pied de la page*/
+footer{
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
